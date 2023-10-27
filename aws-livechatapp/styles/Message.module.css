@@ -6,7 +6,7 @@
     justify-content: flex-end;
     margin: 8px;
   }
-
+  
   .sentMessage {
     text-align: left;
     padding: 8px;
@@ -15,7 +15,7 @@
     background: linear-gradient(243deg, #2397f5, #498efc 100%);
     border-radius: 8px;
   }
-
+  
   .receivedMessageContainer {
     display: flex;
     flex-direction: column;
@@ -24,7 +24,7 @@
     justify-content: flex-start;
     margin: 8px;
   }
-
+  
   .receivedMessage {
     text-align: left;
     padding: 8px;
@@ -37,10 +37,11 @@
     );
     border-radius: 8px;
   }
-
+  
   .senderText {
     font-family: "roboto";
     font-size: 14px;
     color: rgba(0, 0, 0, 0.7);
     margin-bottom: 4px;
   }
+  

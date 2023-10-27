@@ -1,10 +1,10 @@
 {
   "version": "1",
   "cognitoConfig": {
-    "identityPoolName": "awslivechatapp90a3b0e1_identitypool_90a3b0e1",
+    "identityPoolName": "awscctestchatapp02351ba0_identitypool_02351ba0",
     "allowUnauthenticatedIdentities": false,
-    "resourceNameTruncated": "awsliv90a3b0e1",
-    "userPoolName": "awslivechatapp90a3b0e1_userpool_90a3b0e1",
+    "resourceNameTruncated": "awscct02351ba0",
+    "userPoolName": "awscctestchatapp02351ba0_userpool_02351ba0",
     "autoVerifiedAttributes": [
       "email"
     ],
@@ -31,10 +31,10 @@
     "userpoolClientReadAttributes": [
       "email"
     ],
-    "userpoolClientLambdaRole": "awsliv90a3b0e1_userpoolclient_lambda_role",
+    "userpoolClientLambdaRole": "awscct02351ba0_userpoolclient_lambda_role",
     "userpoolClientSetAttributes": false,
-    "sharedId": "90a3b0e1",
-    "resourceName": "awslivechatapp90a3b0e1",
+    "sharedId": "02351ba0",
+    "resourceName": "awscctestchatapp02351ba0",
     "authSelections": "identityPoolAndUserPool",
     "useDefault": "default",
     "userPoolGroupList": [],

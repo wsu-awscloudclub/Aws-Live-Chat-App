@@ -1,12 +1,11 @@
 {
-  "AppSyncApiName": "awslivechatapp",
+  "AppSyncApiName": "awscctestchatapp",
   "DynamoDBBillingMode": "PAY_PER_REQUEST",
   "DynamoDBEnableServerSideEncryption": false,
   "AuthCognitoUserPoolId": {
     "Fn::GetAtt": [
-      "authawslivechatapp90a3b0e1",
+      "authawscctestchatapp02351ba0",
       "Outputs.UserPoolId"
     ]
-  },
-  "AuthModeLastUpdated": "2023-10-22T17:15:45.634Z"
+  }
 }

@@ -1,13 +1,13 @@
 {
   "api": {
-    "awslivechatapp": {
+    "awscctestchatapp": {
       "dependsOn": [
         {
           "attributes": [
             "UserPoolId"
           ],
           "category": "auth",
-          "resourceName": "awslivechatapp90a3b0e1"
+          "resourceName": "awscctestchatapp02351ba0"
         }
       ],
       "output": {
@@ -16,7 +16,7 @@
           "defaultAuthentication": {
             "authenticationType": "AMAZON_COGNITO_USER_POOLS",
             "userPoolConfig": {
-              "userPoolId": "authawslivechatapp90a3b0e1"
+              "userPoolId": "authawscctestchatapp02351ba0"
             }
           }
         }
@@ -26,7 +26,7 @@
     }
   },
   "auth": {
-    "awslivechatapp90a3b0e1": {
+    "awscctestchatapp02351ba0": {
       "customAuth": false,
       "dependsOn": [],
       "frontendAuthConfig": {
