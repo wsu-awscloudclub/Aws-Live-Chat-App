@@ -114,10 +114,10 @@ function Home({messages}) {
                 required
                 value={messageText}
                 onChange={(e) => setMessageText(e.target.value)}
-                placeholder="💬 Send a message to the Wayne State University AWS Cloud Club Chat"
+                placeholder="💬 Send a message to the AWS Cloud Club Chat"
                 className={styles.textBox}
               />
-              <button style={{ marginLeft: "8px" }}>Send</button>
+             <button style={{ marginLeft: "8px", backgroundColor: "black", color: "white", border: "none", padding: "10px 20px", borderRadius: "5px", cursor: "pointer", transition: "background-color 0.3s ease", height: "48px", borderRadius: "10px"}}>Send</button>
             </form>
           </div>
         </div>
